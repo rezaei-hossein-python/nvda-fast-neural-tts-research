@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "acquisition_date": "2026-08-09",
+  "artifacts": [
+    {
+      "role": "HiFi-GAN control used by Phase 2Z and Phase 2AA",
+      "filename": "generator_LJSpeech.pth.tar",
+      "byte_size": 55788858,
+      "sha256": "bb4b0cb7f9df59b8e57bb2e51a1bede57b43e9f0454863e3971c491f255505e4",
+      "source": "official FastSpeech2 and Matcha-TTS referenced artifact",
+      "weight_license": "not separately specified",
+      "redistribution": "do not redistribute"
+    },
+    {
+      "role": "official Opus neural model bundle containing FARGAN weights",
+      "source": "https://media.xiph.org/opus/models/opus_data-a5177ec6fb7d15058e99e57029746100121f68e4890b1467d4094aa336b6013e.tar.gz",
+      "filename": "opus_data-a5177ec6fb7d15058e99e57029746100121f68e4890b1467d4094aa336b6013e.tar.gz",
+      "byte_size": 134674421,
+      "sha256": "a5177ec6fb7d15058e99e57029746100121f68e4890b1467d4094aa336b6013e",
+      "weight_license": "covered by upstream Opus BSD licensing statement; no separate weight license found",
+      "redistribution": "retain upstream attribution and patent notices; not committed"
+    },
+    {
+      "role": "official ParallelWaveGAN LJSpeech Multi-Band MelGAN v2 archive",
+      "source": "Google Drive id 1b70pJefKI8DhGYz4SxbEHpxm92tj1_qC from pinned PRETRAINED_MODEL_LIST",
+      "filename": "ljspeech_multi_band_melgan.v2.tar.gz",
+      "byte_size": 101787630,
+      "sha256": "9cbacc8073a8da1d3bf23d46e83b054626571debba357cb6b394e7a7d031abc4",
+      "checkpoint_sha256": "9c1b34132bdb1f68a281b86cbe775d49ca140959bbe3795ee4e1d50aa8df980b",
+      "stats_sha256": "6fe79e3506dc9ea2d3cba2618812e94b5aefa11b0133eab6d77c1d5bb5558516",
+      "config_sha256": "7cf7a6157c18b358d663c19f3d9b605f76139e794152abf2cec80360cea36da6",
+      "weight_license": "not separately specified; trained on LJSpeech",
+      "redistribution": "do not redistribute"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Opus/FARGAN",
+      "repository": "https://github.com/xiph/opus",
+      "commit": "3da9f7a6db1c05c3996cb363a9d1931a978bf1be",
+      "license": "BSD-3-Clause plus upstream patent notices"
+    },
+    {
+      "name": "LPCNet",
+      "repository": "https://github.com/xiph/LPCNet",
+      "commit": "7dc99429e246cca614708b5aa4990d827bacce2c",
+      "license": "BSD-3-Clause"
+    },
+    {
+      "name": "ParallelWaveGAN / Multi-Band MelGAN",
+      "repository": "https://github.com/kan-bayashi/ParallelWaveGAN",
+      "commit": "86740373ec609cb9fb192d472d2aea125041491a",
+      "license": "MIT"
+    }
+  ]
+}

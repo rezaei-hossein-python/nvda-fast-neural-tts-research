@@ -3,6 +3,7 @@ models/
 upstream/
 results/raw/
 results/matcha/raw/
+results/vocoders/raw/
 listening/
 *.wav
 *.pcm
@@ -13,4 +14,3 @@ __pycache__/
 .pytest_cache/
 .nltk_data/
 .mplconfig/
-
