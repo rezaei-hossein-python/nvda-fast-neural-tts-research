@@ -4,6 +4,9 @@ upstream/
 results/raw/
 results/matcha/raw/
 results/vocoders/raw/
+results/vocoders/summaries/extended-blind-answer-key.json
+results/vocoders/summaries/extended-pair-validation.json
+results/vocoders/summaries/extended-pair-validation-result.json
 listening/
 *.wav
 *.pcm

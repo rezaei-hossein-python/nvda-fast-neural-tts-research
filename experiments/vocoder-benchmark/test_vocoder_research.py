@@ -46,7 +46,7 @@ def test_lock_integrity_when_frozen():
     assert {item["source_model"] for item in lock["items"]} == {
         "fastspeech2-aggressive", "matcha-global-0.5"
     }
-    assert len(lock["items"]) == 126
+    assert len(lock["items"]) == 156
     for item in lock["items"]:
         path = ROOT / item["relative_path"]
         assert path.stat().st_size == item["byte_size"]
@@ -114,3 +114,14 @@ def test_recovery_and_comparison_outputs():
     }
     comparison = (ROOT / "results/vocoders/summaries/vocoder-comparison.md").read_text()
     assert "| HiFi-GAN / FS2 | MB-MelGAN / FS2 |" in comparison
+
+
+def test_extended_pair_validation_result():
+    result = json.loads((ROOT / "results/vocoders/summaries/extended-pair-validation-result.json").read_text())
+    assert result == {
+        "pairs": 71,
+        "wav_files": 142,
+        "valid": True,
+        "answer_key_excluded": True,
+        "checks": ["same frozen mel hash", "mono 16-bit 22050 Hz", "duration tolerance", "finite nonempty PCM", "no vocoder names in user-facing filenames"],
+    }

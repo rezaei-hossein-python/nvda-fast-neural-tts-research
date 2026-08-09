@@ -36,7 +36,11 @@ def digest(path: Path) -> str:
 def items():
     fsbench = load("phase2z_corpus", ROOT / "experiments/selective-duration/benchmark.py")
     for category, item_id, text in fsbench.corpus_items():
-        if category in {"character", "punctuation", "ui"}:
+        if category in {"character", "punctuation", "ui", "navigation", "long-form"}:
+            yield category, item_id, text
+    for line in (ROOT / "corpus/vocoder_extended.txt").read_text(encoding="utf-8").splitlines():
+        if line and not line.startswith("#"):
+            category, item_id, text = line.split("|", 2)
             yield category, item_id, text
 
 

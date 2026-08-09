@@ -1,0 +1,21 @@
+# category|id|public fixed text
+medium|medium-01|The quick brown fox jumps over the lazy dog.
+navigation|navigation-09|Previous page
+navigation|navigation-10|Next heading
+medium|medium-02|A screen reader speaks each control clearly and promptly.
+medium|medium-03|Please review the selected settings before saving changes.
+medium|medium-04|The document contains headings, links, lists, and tables.
+medium|medium-05|Use the keyboard to move between fields in this dialog.
+medium|medium-06|The audio device is ready for another speech request.
+medium|medium-07|Search results update after the filter is changed.
+medium|medium-08|Previous and next headings provide efficient navigation.
+medium|medium-09|A quiet consonant should remain distinct from a vowel.
+medium|medium-10|Numbers and punctuation should remain easy to understand.
+long|long-01|When a screen reader opens a document, it should begin speaking quickly while preserving a natural rhythm, clear consonants, stable vowels, and reliable word boundaries across the entire sentence.
+long|long-02|Keyboard navigation is most useful when focus announcements arrive promptly, obsolete speech is cancelled cleanly, and every label remains intelligible without sounding metallic, muffled, or artificially compressed.
+long|long-03|This public evaluation passage contains varied stops, fricatives, nasals, liquids, diphthongs, digits, and punctuation so that a lightweight vocoder can be judged during sustained ordinary speech.
+long|long-04|A dependable neural voice should preserve its speaker identity from the first syllable to the last, including quiet transitions, final consonants, question contours, and short pauses between interface messages.
+long|long-05|The purpose of this longer sample is to reveal artifacts that may remain hidden in isolated character clips, including buzzing, crackling, unstable pitch, smeared attacks, and gradual loss of high frequency detail.
+sustained|sustained-100|A responsive screen reader should speak useful feedback quickly while keeping every phrase natural, intelligible, and stable from beginning to end.
+sustained|sustained-250|This approximately two hundred fifty character passage exercises sustained neural speech with changing vowels, consonants, pauses, numbers, and interface vocabulary. It is intentionally public and generic, and it should reveal whether a fast vocoder remains coherent when the generated waveform becomes substantially longer than a single character name.
+sustained|sustained-500|This approximately five hundred character passage is a sustained quality check for a future interactive neural speech backend. It moves through ordinary interface language, navigation instructions, punctuation names, digits, and short descriptive clauses. The listener should pay attention to whether the voice remains recognizably the same speaker throughout the passage, whether vowels stay steady, whether fricatives retain their brightness, whether stop consonants remain crisp, and whether any buzz, metallic tone, crackle, pitch wobble, muffling, or unnatural boundary gradually becomes tiring during continuous playback. The passage is public, deterministic, and not drawn from private user content.
