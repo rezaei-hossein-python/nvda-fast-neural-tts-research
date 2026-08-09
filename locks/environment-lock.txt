@@ -1,0 +1,23 @@
+# CPU-only research compatibility environment, acquired 2026-08-09
+Python==3.12.10 (64-bit)
+torch==2.13.0+cpu
+torchvision==0.28.0+cpu
+numpy==2.4.4
+scipy==1.18.0
+librosa==0.11.0
+soundfile==0.14.0
+g2p-en==2.1.0
+inflect==7.5.0
+PyYAML==6.0.3
+matplotlib==3.11.1
+psutil==7.2.2
+pytest==9.1.1
+scikit-learn==1.9.0
+numba==0.66.0
+Unidecode==1.4.0
+tqdm==4.70.0
+
+# The pinned repository's 2021 pins target Python 3.7-era packages and cannot
+# install on Python 3.12. These versions are a Windows CPU compatibility layer;
+# both official checkpoints load with all state-dict keys matched.
+

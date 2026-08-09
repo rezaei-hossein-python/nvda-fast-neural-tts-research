@@ -1,0 +1,18 @@
+{
+  "windows": "Microsoft Windows 11 Pro",
+  "version": "10.0.26200",
+  "build": "26200",
+  "os_architecture": "64-bit",
+  "cpu": "12th Gen Intel(R) Core(TM) i7-1255U",
+  "physical_cores": 10,
+  "logical_threads": 12,
+  "installed_ram_bytes": 16796692480,
+  "system_type": "x64-based PC",
+  "python": "3.12.10",
+  "python_architecture": "64bit",
+  "pytorch": "2.13.0+cpu",
+  "pytorch_default_intraop_threads": 10,
+  "pytorch_default_interop_threads": 10,
+  "contains_usernames": false
+}
+

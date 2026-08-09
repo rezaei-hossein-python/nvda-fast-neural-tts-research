@@ -1,0 +1,15 @@
+environments/
+models/
+upstream/
+results/raw/
+listening/
+*.wav
+*.pcm
+*.pth
+*.pth.tar
+*.zip
+__pycache__/
+.pytest_cache/
+.nltk_data/
+.mplconfig/
+

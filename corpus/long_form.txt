@@ -1,0 +1,3 @@
+Accessible technology should respond promptly while preserving clear and natural speech for careful reading.
+Screen readers must balance immediate interaction with accurate and natural document narration. Character feedback should identify each symbol clearly, navigation labels should arrive promptly, cancellation should remove obsolete speech, and continuous reading should remain stable. This fixed public passage exists only to measure model behavior and contains no private user content. It provides a longer control for acoustic inference and vocoder timing while selective character policies remain restricted to short standalone units.
+

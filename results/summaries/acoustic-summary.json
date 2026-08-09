@@ -1,0 +1,99 @@
+{
+  "cpu_only": true,
+  "torch_version": "2.13.0+cpu",
+  "torch_threads": 4,
+  "model_load_ms": 1139.0555,
+  "working_set_bytes": 1031958528,
+  "conditions": {
+    "normal": {
+      "count": 73,
+      "common_character_count": 36,
+      "useful_duration_ms": {
+        "min": 133.10657596371883,
+        "median": 309.09297052154193,
+        "p95": 535.1473922902494,
+        "max": 699.4104308390023
+      },
+      "pcm_duration_ms": {
+        "median": 394.7392290249433,
+        "p95": 661.7687074829932
+      },
+      "leading_low_energy_ms_median": 19.9546485260771,
+      "complete_pcm_ms_median": 291.91705,
+      "acoustic_ms_median": 29.3301,
+      "vocoder_ms_median": 261.55795
+    },
+    "global": {
+      "count": 73,
+      "common_character_count": 36,
+      "useful_duration_ms": {
+        "min": 37.55102040816327,
+        "median": 132.4263038548753,
+        "p95": 265.0453514739229,
+        "max": 345.4875283446712
+      },
+      "pcm_duration_ms": {
+        "median": 197.36961451247166,
+        "p95": 316.37188208616783
+      },
+      "leading_low_energy_ms_median": 19.501133786848072,
+      "complete_pcm_ms_median": 183.89929999999998,
+      "acoustic_ms_median": 21.0201,
+      "vocoder_ms_median": 134.5083
+    },
+    "conservative": {
+      "count": 71,
+      "common_character_count": 36,
+      "useful_duration_ms": {
+        "min": 109.75056689342404,
+        "median": 233.1746031746032,
+        "p95": 457.6757369614512,
+        "max": 590.8390022675737
+      },
+      "pcm_duration_ms": {
+        "median": 319.27437641723355,
+        "p95": 551.4739229024943
+      },
+      "leading_low_energy_ms_median": 21.564625850340136,
+      "complete_pcm_ms_median": 265.91949999999997,
+      "acoustic_ms_median": 28.35165,
+      "vocoder_ms_median": 203.57260000000002
+    },
+    "balanced": {
+      "count": 71,
+      "common_character_count": 36,
+      "useful_duration_ms": {
+        "min": 67.70975056689342,
+        "median": 184.60317460317458,
+        "p95": 399.1156462585034,
+        "max": 497.55102040816325
+      },
+      "pcm_duration_ms": {
+        "median": 255.41950113378684,
+        "p95": 461.4965986394558
+      },
+      "leading_low_energy_ms_median": 21.99546485260771,
+      "complete_pcm_ms_median": 229.72675,
+      "acoustic_ms_median": 22.5587,
+      "vocoder_ms_median": 171.7267
+    },
+    "aggressive": {
+      "count": 71,
+      "common_character_count": 36,
+      "useful_duration_ms": {
+        "min": 53.42403628117914,
+        "median": 143.1746031746032,
+        "p95": 328.42403628117916,
+        "max": 400.72562358276645
+      },
+      "pcm_duration_ms": {
+        "median": 203.1746031746032,
+        "p95": 383.12925170068024
+      },
+      "leading_low_energy_ms_median": 19.138321995464853,
+      "complete_pcm_ms_median": 189.32045,
+      "acoustic_ms_median": 20.903100000000002,
+      "vocoder_ms_median": 139.0986
+    }
+  }
+}

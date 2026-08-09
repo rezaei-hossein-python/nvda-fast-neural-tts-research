@@ -1,0 +1,51 @@
+{
+  "acquisition_date": "2026-08-09",
+  "source": {
+    "repository": "https://github.com/ming024/FastSpeech2",
+    "commit": "d4e79eb52e8b01d24703b2dfc0385544092958f3",
+    "license": "MIT"
+  },
+  "artifacts": [
+    {
+      "role": "official LJSpeech FastSpeech2 distribution archive",
+      "source_url": "https://drive.google.com/drive/folders/1DOhZGlTLMbbAAFZmZGDdc77kz1PloS7F?usp=sharing",
+      "upstream_identifier": "Google Drive file 1r3fYhnblBJ8hDKDSUDtidJ-BN-xAM9pe",
+      "filename": "LJSpeech_900000.zip",
+      "local_path": "models/official-download/LJSpeech_900000.zip",
+      "byte_size": 354008185,
+      "sha256": "b64a44869cd2ff696acff3339280764a340f19167fdc4147d8b98ead9856689b",
+      "license_status": "Checkpoint redistribution terms are not stated separately from the MIT code license; do not redistribute."
+    },
+    {
+      "role": "LJSpeech FastSpeech2 restore_step 900000 checkpoint",
+      "source_url": "https://drive.google.com/drive/folders/1DOhZGlTLMbbAAFZmZGDdc77kz1PloS7F?usp=sharing",
+      "upstream_identifier": "900000.pth.tar extracted from official LJSpeech_900000.zip",
+      "filename": "900000.pth.tar",
+      "local_path": "models/fastspeech2/900000.pth.tar",
+      "byte_size": 418059335,
+      "sha256": "8e24862525a53ba35ea22b3fa630d8c67808a99d7b66d90d47da26077003357d",
+      "license_status": "Checkpoint redistribution terms are not stated separately; do not redistribute."
+    },
+    {
+      "role": "repository-supported LJSpeech HiFi-GAN archive",
+      "source_url": "https://github.com/ming024/FastSpeech2/blob/d4e79eb52e8b01d24703b2dfc0385544092958f3/hifigan/generator_LJSpeech.pth.tar.zip",
+      "upstream_identifier": "Git object at pinned FastSpeech2 commit",
+      "filename": "generator_LJSpeech.pth.tar.zip",
+      "local_path": "upstream/FastSpeech2/hifigan/generator_LJSpeech.pth.tar.zip",
+      "byte_size": 51838074,
+      "sha256": "ff0b41168d347edd43d7d6859d136221c1fd9ea4698cf8998d5f0228139f2d41",
+      "license_status": "HiFi-GAN code is MIT; weight redistribution terms are not separately stated, so do not redistribute."
+    },
+    {
+      "role": "repository-supported LJSpeech HiFi-GAN checkpoint",
+      "source_url": "https://github.com/ming024/FastSpeech2/blob/d4e79eb52e8b01d24703b2dfc0385544092958f3/hifigan/generator_LJSpeech.pth.tar.zip",
+      "upstream_identifier": "generator_LJSpeech.pth.tar extracted from tracked archive",
+      "filename": "generator_LJSpeech.pth.tar",
+      "local_path": "models/hifigan/generator_LJSpeech.pth.tar",
+      "byte_size": 55788858,
+      "sha256": "bb4b0cb7f9df59b8e57bb2e51a1bede57b43e9f0454863e3971c491f255505e4",
+      "license_status": "Do not redistribute absent explicit weight terms."
+    }
+  ]
+}
+

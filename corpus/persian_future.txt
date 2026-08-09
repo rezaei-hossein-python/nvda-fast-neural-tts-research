@@ -1,0 +1,8 @@
+# Defined for a future language-appropriate model; do not synthesize with LJSpeech.
+Persian alphabet names
+Persian digits
+Arabic digit forms
+punctuation names
+ZWNJ cases
+mixed Persian and English UI labels
+
