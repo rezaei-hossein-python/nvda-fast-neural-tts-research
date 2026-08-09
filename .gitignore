@@ -2,6 +2,7 @@ environments/
 models/
 upstream/
 results/raw/
+results/matcha/raw/
 listening/
 *.wav
 *.pcm
