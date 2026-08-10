@@ -85,3 +85,8 @@ A5 remains the leading modified research candidate because its automatic
 duration is stronger, but it is not perceptually validated. A6 is not promoted.
 The next gate should explicitly flag pronunciation/quality while comparing
 Original and A5 on a broader corpus. No integration is authorized.
+
+Phase 2AK is now decoded: Original won 10 of 14 valid trials and A5 won 4.
+`A` and `exclamation mark` were rejected because both Original and A5 were
+unacceptable. A5 therefore fails the clear-majority quality gate despite its
+material duration reduction. It is not advanced to isolated NVDA testing.

@@ -197,3 +197,14 @@ passed all 76 renders. A5 reduced character median/P95 from 520/800 ms to
 32-WAV Original-versus-A5 gate was generated with explicit overall preference,
 quality, pronunciation, and problem fields. Its answer key remains private;
 no perceptual conclusion has yet been recorded.
+
+The completed Phase 2AK gate produced 14 valid preferences and two shared
+rejections. Original was preferred 10 times and A5 four times. Trial 04 was
+`A`; Trial 10 was `exclamation mark`; both Original and A5 were unacceptable,
+so neither is attributed to A5. Overlapping items were unstable relative to
+Phase 2AJ: only S remained A5-preferred; U, W, expanded, unavailable, and
+button moved to Original, 0 remained Original, and exclamation mark became a
+shared rejection. Despite A5's material duration reduction, it fails the
+clear-majority quality/preference gate and is rejected as a general interactive
+policy. It remains a research artifact only; no NVDA testing or stronger policy
+is authorized.
