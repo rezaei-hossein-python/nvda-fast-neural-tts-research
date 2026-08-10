@@ -170,7 +170,7 @@ long vowels). A0–A8 ablations over seven prior usable items plus eight
 confirmation items found A5 (E1+E2+E3) as the conservative middle candidate
 and A6 (E1+E2+E4) as the frontier candidate. A deterministic adaptive rule was
 not justified by seven preference observations. A5 measured 544 ms median and
-884.8 ms P95; A6 measured 560 ms median and 900.8 ms P95 in the final ablation
-run, versus A1/V1 at 624/1027.2 ms and A8/V6 at 528/873.6 ms. These are
+811.2 ms P95; A6 measured 560 ms median and 838.4 ms P95 in the final ablation
+run, versus A1/V1 at 656/988.8 ms and A8/V6 at 544/806.4 ms. These are
 automatic results only. A new 24-WAV blind gate was generated; no Phase 2AJ
 listening result has been decoded and no Phase 2AK work began.
