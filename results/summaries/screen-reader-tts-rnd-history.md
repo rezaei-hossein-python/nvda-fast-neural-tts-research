@@ -187,3 +187,13 @@ The same-voice/quality/shortened-plan hypothesis is provisionally supported,
 but not established as a universal fixed policy. The next phase should use a
 broader explicitly quality-flagged Original-versus-A5 gate; no NVDA integration
 or automatic Phase 2AK execution follows from this result.
+## Phase 2AK — decisive Original versus frozen A5 gate
+
+Phase 2AK freezes A5 and expands validation to 38 items: 18 characters, 7
+digits, 5 punctuation names, and 8 UI/navigation utterances. Automatic safety
+passed all 76 renders. A5 reduced character median/P95 from 520/800 ms to
+392/672 ms, digit median/P95 from 624/758.4 to 480/619.2 ms, punctuation from
+592/1139.2 to 496/944 ms, and UI from 576/852 to 456/697.6 ms. A fixed 16-trial,
+32-WAV Original-versus-A5 gate was generated with explicit overall preference,
+quality, pronunciation, and problem fields. Its answer key remains private;
+no perceptual conclusion has yet been recorded.
