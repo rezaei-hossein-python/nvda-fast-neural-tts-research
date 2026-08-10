@@ -198,6 +198,19 @@ passed all 76 renders. A5 reduced character median/P95 from 520/800 ms to
 quality, pronunciation, and problem fields. Its answer key remains private;
 no perceptual conclusion has yet been recorded.
 
+## Phase 2AL — stochastic repeatability of frozen A5
+
+Phase 2AL found two internal ONNX `RandomNormalLike` nodes with no exposed
+random inputs or seed, so common-random-number pairing was not feasible without
+changing graph semantics. Five paired Original/A5 realizations were generated
+for each of 12 informative items, with randomized execution order: 60 pairs,
+120 raw WAVs, and an 18-trial/36-WAV blinded subset. Overall median duration was
+624 ms Original versus 520 ms A5, with a median 112 ms saving. Median within-
+item duration standard deviation was 41.2 ms Original and 45.7 ms A5; RMS and
+spectral-centroid variability were also recorded. The subset is awaiting manual
+quality/pronunciation scoring; its key remains private and no Phase 2AM work
+began.
+
 The completed Phase 2AK gate produced 14 valid preferences and two shared
 rejections. Original was preferred 10 times and A5 four times. Trial 04 was
 `A`; Trial 10 was `exclamation mark`; both Original and A5 were unacceptable,
