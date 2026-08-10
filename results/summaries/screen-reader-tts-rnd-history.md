@@ -121,3 +121,28 @@ serialized playback, and quality—not merely a small synthesis-stage latency.
 Piper Phase 2S remains the production baseline. The new branch is isolated,
 inference-only, and must stop if the existing Lessac model/export cannot expose
 and safely override duration plans.
+
+## Phase 2AH decoded result and Phase 2AI audited frontier
+
+The Phase 2AH key showed Trial C was P1 in five trials, Original in two, and P6
+in one. Because the user judged all eight C samples good in speed and quality,
+only P1 is perceptually validated by this result. P6 is not promoted: it
+appeared as C only once. The P0–P6 automatic measurements remain valid
+structural evidence, but not a substitute for the decoded perceptual gate.
+
+Phase 2AI fully decoded the former 370-frame `protected/unknown` pool: 178
+BOS/EOS boundary frames, 92 stress/control frames, and 100 frames of valid IPA
+speech tokens previously missed by a mojibake-damaged classifier. Piper `_` is
+an inserted PAD/separator token, `^` is BOS, and `$` is EOS. Unicode-safe
+classification now protects all consonants, stress/length controls, and other
+speech-bearing tokens.
+
+P1 became V1. Across 54 interactive items, original Piper measured 560 ms
+median, 776 ms P90, 837.6 ms P95, and 1264 ms maximum in the final run. V1
+measured 544/760/821.6/1248 ms. V6, the strongest evidence-bounded combined
+plan, measured 448/614.4/693.6/1024 ms and saved 128 ms median and 160 ms P95.
+Character-only median/P95/max improved from 520/672/704 ms to 400/544/592 ms,
+still far from the <=300 ms median objective. V6 adds no operation beyond V5;
+this is the diminishing-return stop rather than authorization to touch
+consonants or unknown speech. V1 and V6 were selected for an eight-trial,
+24-WAV blind quality gate. No NVDA integration occurred.

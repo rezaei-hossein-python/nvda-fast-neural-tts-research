@@ -59,3 +59,13 @@ has been made.
 
 This decision does not authorize retraining, NVDA changes, Piper production
 changes, another model architecture, or automatic integration.
+
+## Phase 2AH decoded and Phase 2AI status
+
+The completed Phase 2AH key showed that C was P1 in five trials, Original in
+two, and P6 in one. All C samples were judged good, so P1—not P6—is the
+validated baseline. Phase 2AI corrected the Unicode token classifier, decoded
+all 370 former unknown frames, and measured a stronger evidence-bounded V6 at
+448 ms median and 693.6 ms P95 over 54 interactive items (versus 560/837.6 ms
+original in that run). Character-only median remained 400 ms. V1 and V6 now
+await an eight-trial blind comparison; no production decision has been made.
