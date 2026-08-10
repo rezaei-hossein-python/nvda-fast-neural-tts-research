@@ -231,3 +231,16 @@ shared rejection. Despite A5's material duration reduction, it fails the
 clear-majority quality/preference gate and is rejected as a general interactive
 policy. It remains a research artifact only; no NVDA testing or stronger policy
 is authorized.
+
+## Phase 2AM — structural selector decision
+
+Phase 2AM extracted phoneme-class counts, PAD/boundary occupancy, E1/E2/E3
+frame savings, boundary-to-speech ratios, cumulative displacement before
+speech/stress/consonants, and token-duration features from all Phase 2AL
+realizations. Stable A5 items (S, W, button) and stable Original items (R, U,
+0) overlapped substantially. The strongest one-feature thresholds classified
+only 5/6 stable items and failed leave-one-item-out tests on multiple held-out
+items. A representative boundary threshold matched 4/5 secondary observations
+but misclassified unavailable. No conservative, identity-free selector was
+justified; no new policy or listening set was generated. Outcome C: retain A5
+and Original as research evidence only and stop before Phase 2AN.
