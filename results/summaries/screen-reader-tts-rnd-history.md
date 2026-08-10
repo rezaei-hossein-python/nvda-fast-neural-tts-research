@@ -96,6 +96,24 @@ well. Thus the graph mechanism is accepted research evidence, the conservative
 policy is rejected as a product candidate, and acoustic quality attribution is
 classified as Result A (invalid research baseline), not intrinsic VITS damage.
 
+## Phase 2AG — corrected selective-duration listening gate
+
+The corrected normalized four-item gate compared original Piper with one- and
+two-frame separator reductions for `F`, `S`, `A`, and `button`. All variants
+preserved voice quality. The original `button` sample was the user's preferred
+pronunciation in Trial 04. This is the first valid perceptual evidence that a
+small selective duration change can be safe; it is not evidence that broader
+compression is safe.
+
+## Phase 2AH — quality-preserving duration envelope
+
+The bounded P0–P6 ladder measured cumulative separator, terminal, and one-frame
+vowel reductions over 24 interactive items. P1 saved a median 16 ms, while the
+strongest clean P6 policy saved a median 80 ms and reduced median duration from
+576 to 480 ms. Automatic PCM checks passed. Two blinded candidates (P1 and P6)
+were prepared for manual listening; no perceptual conclusion has yet been
+recorded.
+
 ## What remains learned
 
 The dominant product constraints are physical useful waveform duration,

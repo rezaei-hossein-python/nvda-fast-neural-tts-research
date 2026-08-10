@@ -46,6 +46,15 @@ weak original samples make that listening result a baseline-pipeline failure
 (Result A), not evidence that selective duration inherently destroys LESSAC
 quality. Correct normalization is required before further acoustic judgment.
 
+## Phase 2AG/2AH evidence
+
+After correction, one- and two-frame separator reductions were judged
+voice-quality-preserving across four blinded items. Phase 2AH maps a bounded
+cumulative envelope rather than pursuing global compression: P1 saves a median
+16 ms, while the stronger clean P6 probe saves 80 ms median across 24 items.
+Two blinded P1/P6 candidates are awaiting manual listening; no product decision
+has been made.
+
 ## Non-goals
 
 This decision does not authorize retraining, NVDA changes, Piper production
