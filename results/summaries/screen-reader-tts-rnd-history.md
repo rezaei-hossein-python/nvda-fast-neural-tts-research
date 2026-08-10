@@ -146,3 +146,10 @@ still far from the <=300 ms median objective. V6 adds no operation beyond V5;
 this is the diminishing-return stop rather than authorization to touch
 consonants or unknown speech. V1 and V6 were selected for an eight-trial,
 24-WAV blind quality gate. No NVDA integration occurred.
+
+The completed Phase 2AI listening result had one explicit item-level failure:
+Trial 3 was `Y`, and Original, V1, and V6 were all unacceptable. Among the
+other seven trials, the user preferred Original twice, V1 three times, and V6
+twice. V6 therefore failed the Phase 2AI perceptual gate; the shared `Y`
+failure does not attribute the problem specifically to V6. No stronger policy
+was promoted and Phase 2AJ was not started.
