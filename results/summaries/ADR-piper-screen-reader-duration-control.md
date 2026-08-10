@@ -38,6 +38,14 @@ consonants, recognizable Piper identity, valid PCM, and a useful duration
 distribution (common-unit median <=180 ms, P95 <=220 ms, with intelligible
 long units <=260 ms). Only then may a small blind listening set be prepared.
 
+## Phase 2AF diagnostic note
+
+The Phase 2AE graph proof remains valid, but its first listening generator did
+not reproduce Piper's `normalize_audio=True` output conversion. The resulting
+weak original samples make that listening result a baseline-pipeline failure
+(Result A), not evidence that selective duration inherently destroys LESSAC
+quality. Correct normalization is required before further acoustic judgment.
+
 ## Non-goals
 
 This decision does not authorize retraining, NVDA changes, Piper production

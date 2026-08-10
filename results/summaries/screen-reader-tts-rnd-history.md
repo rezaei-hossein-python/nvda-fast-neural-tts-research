@@ -83,6 +83,19 @@ expose predicted per-token durations, classify phonetic roles, protect
 consonants, compress vowel occupancy/silence/tails, and reuse the original
 decoder and voice.
 
+## Phase 2AE/2AF — Piper ONNX duration override and diagnosis
+
+Phase 2AE proved that the existing Lessac graph can retain its duration
+predictor while selecting a host-validated per-token override before both
+alignment consumers. Disabled and self-duration paths were byte-identical
+under deterministic controls, and one-frame changes produced the expected
+256-sample change. The first blind set was rejected by the user as weak in
+quality. Phase 2AF found that its generator omitted Piper's required
+per-utterance `normalize_audio=True` conversion; original samples were weak as
+well. Thus the graph mechanism is accepted research evidence, the conservative
+policy is rejected as a product candidate, and acoustic quality attribution is
+classified as Result A (invalid research baseline), not intrinsic VITS damage.
+
 ## What remains learned
 
 The dominant product constraints are physical useful waveform duration,
