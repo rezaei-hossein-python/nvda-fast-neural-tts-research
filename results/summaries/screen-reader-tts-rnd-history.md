@@ -153,3 +153,24 @@ other seven trials, the user preferred Original twice, V1 three times, and V6
 twice. V6 therefore failed the Phase 2AI perceptual gate; the shared `Y`
 failure does not attribute the problem specifically to V6. No stronger policy
 was promoted and Phase 2AJ was not started.
+## Phase 2AJ — V6 ablation and baseline-outlier diagnosis
+
+Phase 2AJ isolated the Phase 2AI `Y` failure before policy scoring. `Y`
+phonemizes as `w ˈ a ɪ`; its active token plan is short and contains no
+consonant-duration edit opportunity. The original graph does not expose a
+duration output and separate ONNX sessions are stochastic, so byte-identical
+PCM cannot be demanded across paths; the self-duration path did use the
+supplied vector exactly. Because Original, V1, and V6 were all unacceptable,
+`Y` remains an independent Lessac/eSpeak pronunciation or item-level baseline
+issue, not evidence for changing duration control.
+
+The V6 edit families were decomposed into E1 (first PAD), E2 (remaining PAD
+plus BOS/EOS), E3 (terminal PAD/EOS), E4 (one long vowel), and E5 (additional
+long vowels). A0–A8 ablations over seven prior usable items plus eight
+confirmation items found A5 (E1+E2+E3) as the conservative middle candidate
+and A6 (E1+E2+E4) as the frontier candidate. A deterministic adaptive rule was
+not justified by seven preference observations. A5 measured 544 ms median and
+884.8 ms P95; A6 measured 560 ms median and 900.8 ms P95 in the final ablation
+run, versus A1/V1 at 624/1027.2 ms and A8/V6 at 528/873.6 ms. These are
+automatic results only. A new 24-WAV blind gate was generated; no Phase 2AJ
+listening result has been decoded and no Phase 2AK work began.

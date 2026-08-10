@@ -72,3 +72,8 @@ blind result then recorded `Y` as an item-level failure: Original, V1, and V6
 were all unacceptable. Excluding that failed item, preferences were Original 2,
 V1 3, and V6 2. V6 fails the perceptual gate and is not promoted. Phase 2AJ
 was not started and no production decision has been made.
+Phase 2AJ now ablates V6 rather than strengthening it. It treats `Y` as an
+independent baseline pronunciation case, decomposes V6 into five atomic edit
+families, and compares A0–A8. Candidate M is A5 (boundary plus terminal), and
+Candidate F is A6 (boundary plus one long vowel). The new 24-WAV gate is
+blinded and awaiting manual listening; its answer key remains private.
