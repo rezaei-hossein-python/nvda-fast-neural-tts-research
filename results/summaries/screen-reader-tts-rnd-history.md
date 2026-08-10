@@ -198,6 +198,16 @@ passed all 76 renders. A5 reduced character median/P95 from 520/800 ms to
 quality, pronunciation, and problem fields. Its answer key remains private;
 no perceptual conclusion has yet been recorded.
 
+Phase 2AL manual decoding produced 17 valid preferences: Original 9, A5 8,
+Same 0; `M` was rejected because both variants were unacceptable. The six
+repeated items were perfectly stable across two realizations: S/W/button
+consistently A5, R/U/0 consistently Original; 6/6 stable, no flips or rejected
+repeat. Relative to Phase 2AK's 10–4 Original/A5 result, stochastic repeat
+sampling materially narrowed the aggregate gap, but repeated-item stability
+indicates item structure matters more than random preference flipping. A5
+retains 624→520 ms median and 912→720 ms P95 duration, but remains below the
+clear-majority acceptance gate and research-only. No Phase 2AM work began.
+
 ## Phase 2AL — stochastic repeatability of frozen A5
 
 Phase 2AL found two internal ONNX `RandomNormalLike` nodes with no exposed

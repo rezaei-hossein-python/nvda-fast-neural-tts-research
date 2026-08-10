@@ -90,3 +90,10 @@ Phase 2AK is now decoded: Original won 10 of 14 valid trials and A5 won 4.
 `A` and `exclamation mark` were rejected because both Original and A5 were
 unacceptable. A5 therefore fails the clear-majority quality gate despite its
 material duration reduction. It is not advanced to isolated NVDA testing.
+
+Phase 2AL repeated the frozen policy five times per item. Manual results were
+Original 9, A5 8, Same 0 among 17 valid trials; `M` was rejected for both
+variants. Repeated-item stability was 6/6 with no flips, so stochasticity
+affects aggregate preference balance but does not erase item-structure effects.
+A5 remains research-only and is not advanced to NVDA; future work should be
+targeted/adaptive rather than a stronger fixed policy.
