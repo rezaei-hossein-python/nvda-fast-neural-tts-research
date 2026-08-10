@@ -77,3 +77,11 @@ independent baseline pronunciation case, decomposes V6 into five atomic edit
 families, and compares A0–A8. Candidate M is A5 (boundary plus terminal), and
 Candidate F is A6 (boundary plus one long vowel). The new 24-WAV gate is
 blinded and awaiting manual listening; its answer key remains private.
+
+Phase 2AJ listening is now complete: A5 was selected for S, U, W, and button;
+Original was selected for 0, exclamation mark, expanded, and unavailable; A6
+was selected zero times. This ties A5 and Original at four selections each.
+A5 remains the leading modified research candidate because its automatic
+duration is stronger, but it is not perceptually validated. A6 is not promoted.
+The next gate should explicitly flag pronunciation/quality while comparing
+Original and A5 on a broader corpus. No integration is authorized.

@@ -174,3 +174,16 @@ not justified by seven preference observations. A5 measured 544 ms median and
 run, versus A1/V1 at 656/988.8 ms and A8/V6 at 544/806.4 ms. These are
 automatic results only. A new 24-WAV blind gate was generated; no Phase 2AJ
 listening result has been decoded and no Phase 2AK work began.
+
+The Phase 2AJ gate then returned valid preferences on all eight items. The key
+mapped selections to A5 on S, U, W, and button, and to Original on 0,
+exclamation mark, expanded, and unavailable. Counts were Original 4, A5 4,
+and A6 0. Relative to Phase 2AI, S moved Original→A5; U and W moved V1→A5;
+0 stayed Original; exclamation mark and expanded moved V6→Original; and
+unavailable moved V1→Original. A5 is the leading modified research candidate
+because it ties Original in preference while retaining the stronger automatic
+duration result. It is not yet perceptually validated, and A6 is not promoted.
+The same-voice/quality/shortened-plan hypothesis is provisionally supported,
+but not established as a universal fixed policy. The next phase should use a
+broader explicitly quality-flagged Original-versus-A5 gate; no NVDA integration
+or automatic Phase 2AK execution follows from this result.
