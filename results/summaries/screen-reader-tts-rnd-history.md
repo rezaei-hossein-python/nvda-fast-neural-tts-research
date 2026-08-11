@@ -244,3 +244,27 @@ items. A representative boundary threshold matched 4/5 secondary observations
 but misclassified unavailable. No conservative, identity-free selector was
 justified; no new policy or listening set was generated. Outcome C: retain A5
 and Original as research evidence only and stop before Phase 2AN.
+
+## Phase 2AN — transition to learned Piper conditioning
+
+Phase 2AN publishes the completed inference R&D record and begins screen-reader-
+conditioned Piper feasibility work in the isolated
+[`piper-screen-reader-research`](https://github.com/rezaei-hossein-python/piper-screen-reader-research)
+repository.
+
+**Strategic conclusion:** inference-time duration manipulation is technically
+viable but not sufficiently generalizable as a fixed or simple structure-routed
+policy. The new hypothesis is that Piper/VITS should learn a dedicated
+interactive speech mode (`speech_mode = normal | interactive`) while preserving
+one speaker identity.
+
+**Phase 2AN deliverables (design only, no training):**
+
+- Piper v1.5.0 training architecture map
+- Duration-predictor-only mode conditioning as preferred first experiment
+- Public Lessac-low checkpoint identified on Hugging Face (`epoch=2307-step=558536.ckpt`)
+- Licensing audit (GPL Piper code, MIT HF checkpoints, Blizzard research dataset)
+- Minimal 17-token prototype design and acceptance gates
+- **Outcome A:** fine-tuning feasible; GPU required for execution
+
+Production Phase 2S remains untouched. No NVDA integration occurred.
