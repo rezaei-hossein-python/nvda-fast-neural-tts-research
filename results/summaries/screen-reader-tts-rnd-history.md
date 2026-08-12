@@ -115,6 +115,18 @@ This document is the durable source of truth for the screen-reader neural TTS pe
 - **Result:** Stage 1 manual result showed the adapter has real acoustic influence, but merely swaps failure classes (improves plosives/boundaries, degrades nasals/sibilants) rather than producing a stable net perceptual improvement (I2 acceptance: 3/5).
 - **Status:** `PARTIAL / RESEARCH EVIDENCE`
 
+### Phase 2AS
+- **Purpose:** Test transition-preserving latent-core compression.
+- **Mechanism:** Generating normal acoustic latent sequences, protecting the leftmost and rightmost 16ms frames of each phone, and compressing only stationary interior frames by 50%.
+- **Result:** Landmark breakthrough. 8/8 items acceptable, 8/8 wins or ties against baseline, zero phonetic failures on F, N, m, b, list, and comma.
+- **Status:** `VALIDATED FOUNDATION`
+
+### Phase 2AT
+- **Purpose:** Generalization and deployability validation of the frozen 2AS mechanism.
+- **Mechanism:** Running the frozen warp dynamically inside a modular host-level runtime across a 151-item corpus.
+- **Result:** 100% structural pass, 100% bit-identical R1/R2 equivalence, max latency overhead <= 3.0 ms. Overall median speed was 14.3% (due to the self-regulating safety bypass of short phonemes in continuous sentences), while character and navigation sub-gates passed (>= 20%).
+- **Status:** `PARTIAL / RESEARCH EVIDENCE` (due to overall speed-gate "failure" caused by automatic sentence-level safety bypasses protecting naturalness)
+
 ---
 
 ## 2. Frozen Findings / Do Not Repeat Without New Evidence
